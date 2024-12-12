@@ -1,0 +1,95 @@
+h1 {
+    margin: 5px;
+}
+
+main {
+    padding: 15px;
+}
+
+label {
+    font-size: 25px;
+}
+
+#feur {
+    transform: scale(2);
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #383737;
+    color: white;
+    font-family: fantasy;
+    width: 100%;
+}
+
+header {
+    background-color: #1f1e1e;
+    padding: 10px;
+}
+
+button {
+    background-color: #4d578a;
+    color: white;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 3px;
+}
+
+#buttons_update {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+
+#buttons_update button {
+    font-size: 25px;
+    width: auto;
+    padding: 15px;
+}
+
+#conteneur_app {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    gap: 5px;
+}
+
+div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+}
+
+#liens {
+    display: flex;
+    gap: 20px;
+    align-content: flex-start;
+}
+
+div button {
+    width: 200px;
+    justify-self: end;
+    margin-right: 100px;
+    height: auto;
+}
+
+.apps {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #1f1e1e;
+    padding-left: 10px;
+    font-size: 24px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    padding-left: 15px;
+    padding-top: 15px;
+    background-color: #1f1e1e;
+    margin: 0px;
+    width: 100%;
+}
